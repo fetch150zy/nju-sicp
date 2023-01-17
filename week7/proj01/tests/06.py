@@ -125,15 +125,14 @@ test = {
           'code': r"""
           >>> #
           >>> s0, s1 = play(always_roll(3), always_roll(3), dice=make_test_dice(1, 2, 3, 3), goal=8, say=both(say_scores, announce_lead_changes()))
-          e713c9b3f50d8bed6897c81a3655f4c6
-          a4f9f0e0c3c118cc96d084fbf154e922
-          7937f86b5caf880ffa4199c732caf1dd
-          a575607a9c8bb02961bf29075ffa5ebf
-          a0371163ed2f962708c1f7b9418816b3
-          # locked
+          Player 0 now has 0 and Player 1 now has 2
+          Player 1 takes the lead by 2
+          Player 0 now has 0 and Player 1 now has 4
+          Player 0 now has 1 and Player 1 now has 4
+          Player 0 now has 1 and Player 1 now has 13
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         }
       ],
